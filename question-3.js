@@ -5,6 +5,8 @@ function authenticateUser(username, password) {
   const validPassword = "securepass";
 
   // เริ่มเขียนโค้ดตรงนี้
+  const conditionVarify = validUsername === username & validPassword === password ? "Login successful.": "Login failed. Please check your username and password.";
+  return conditionVarify;
 }
 
 // ตัวอย่างการใช้งาน
